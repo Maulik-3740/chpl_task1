@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_task1/colors/colors.dart';
 
@@ -7,7 +5,7 @@ class InsightCard extends StatelessWidget {
   final String label;
   final String value;
   final IconData icon;
-  final VoidCallback? onTap; // <-- Optional tap handler
+  final VoidCallback? onTap;
 
   const InsightCard({
     super.key,
